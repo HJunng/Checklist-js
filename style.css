@@ -83,8 +83,8 @@ ul li span{
   position: absolute;
   right: 0;
   top: 5px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   font-size: 22px;
   color: #555;
   line-height: 40px;
@@ -92,5 +92,21 @@ ul li span{
   border-radius: 20%;
 }
 ul li span:hover{
+  background: #edeef0;
+}
+ul li edit{
+  position: absolute;
+  right: 30px;
+  top: 7px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 20%;
+  rotate: 90deg;
+}
+ul li edit:hover{
   background: #edeef0;
 }

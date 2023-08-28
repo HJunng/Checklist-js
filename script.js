@@ -8,9 +8,14 @@ function addTask(){
     let li = document.createElement("li");
     li.innerHTML = inputBox.value;
     listContainer.appendChild(li);
+
     let span = document.createElement("span");
     span.innerHTML="\u00d7";
     li.appendChild(span);
+
+    let edit = document.createElement("edit");
+    edit.innerHTML = "\u270e";
+    li.appendChild(edit);
   }
   inputBox.value='';
   saveData();
@@ -22,6 +27,10 @@ listContainer.addEventListener("click",function(e){
     saveData();
   }else if(e.target.tagName === "SPAN"){
     e.target.parentElement.remove();
+    saveData();
+  }else if(e.target.tagName === "EDIT"){
+    e.target.parentElement.focus();
+    e.target.parentElement.edit();
     saveData();
   }
 },false);
