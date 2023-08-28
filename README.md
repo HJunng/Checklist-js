@@ -1,9 +1,10 @@
 # To-Do List<br>
 ### 구름톤 트레이닝 - PBL과제: 자바스크립트를 이용해서 Todo 앱 만들기<br><br>
-<img width="526" alt="스크린샷 2023-08-28 오후 9 56 04" src="https://github.com/HJunng/ToDoList-js/assets/56528404/8d13cd98-07df-4ad7-875b-349fba0585b3">
 <br><br>
 
 ## ⚒️ Function
+<img src="https://github.com/HJunng/ToDoList-js/assets/56528404/2d4d02f4-0596-41e9-b648-1d2ebdf84819" width="500px">   
+
 ### 1. ToDO 추가 및 삭제   
 ### 2. 할일 완료 (체크 표시)   
 <br><br>
