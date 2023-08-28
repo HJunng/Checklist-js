@@ -3,9 +3,10 @@
 <img width="526" alt="스크린샷 2023-08-28 오후 9 56 04" src="https://github.com/HJunng/ToDoList-js/assets/56528404/8d13cd98-07df-4ad7-875b-349fba0585b3">
 <br><br>
 
-## ☑️ Function
-### 1. ToDO 추가 및 삭제
-
+## ⚒️ Function
+### 1. ToDO 추가 및 삭제   
+### 2. 할일 완료 (체크 표시)   
+<br><br>
 
 ## 📚 Stacks<br>
 ### Environment
